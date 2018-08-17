@@ -38,8 +38,9 @@ client.on_connect = on_connect
 # if username:
 #     client.username_pw_set(username, password)
 
-client.connect(host, port)
 client.username_pw_set(username, password)
+client.connect(host, port)
+
 
 keys = list(sensors.keys())
 
