@@ -1,0 +1,36 @@
+{
+    "mqtt": {
+        "username": "BBFF-qo8XKdAO2W3m74MPA9CCtrPCvwtFaE",
+        "password": "",
+        "host": "things.ubidots.com",
+        "port": 1883,
+        "topic": "/v1.6/devices/sensors"
+    },
+    "misc": {
+        "interval_secs": 5,
+        "verbose": true
+    },
+    "sensors": {
+        "Sensor 1": {
+            "unit": "C",
+            "type": "temperature",
+            "range": [0, 45],
+            "description": "To control temperature",
+            "isOutOfLimit" : 0
+        },
+        "Sensor 2": {
+            "unit": "Percent",
+            "type": "humidity",
+            "range": [30, 60],
+            "description": "To check humidity",
+            "isOutOfLimit" : 0
+        },
+        "Sensor 3":{
+            "unit" : "",
+            "type" : "light",
+            "range": [0,1],
+            "description" : "To check lights ON:1 or OFF:0"
+        }
+        
+    }
+}
