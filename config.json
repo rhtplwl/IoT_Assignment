@@ -7,9 +7,9 @@
         "topic": "candyFactory/sensors"
     },
     "mail": {
-        "sendermail" : "rohitpaliwal740@gmail.com",
-        "receivermail" : "qafir786@gmail.com",
-        "password" : "mverybad",
+        "sendermail" : "$Put the sender's mail$",
+        "receivermail" : "$Put the reciever's mail",
+        "password" : "$Put the sender's gmail account password$",
         "smtpserver" : "smtp.gmail.com",
         "port" : 587
     },
