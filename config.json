@@ -1,13 +1,20 @@
 {
     "mqtt": {
-        "username": "BBFF-qo8XKdAO2W3m74MPA9CCtrPCvwtFaE",
+        "username": "",
         "password": "",
-        "host": "things.ubidots.com",
+        "host": "broker.mqttdashboard.com",
         "port": 1883,
-        "topic": "/v1.6/devices/sensors"
+        "topic": "candyFactory/sensors"
+    },
+    "mail": {
+        "sendermail" : "rohitpaliwal740@gmail.com",
+        "receivermail" : "qafir786@gmail.com",
+        "password" : "mverybad",
+        "smtpserver" : "smtp.gmail.com",
+        "port" : 587
     },
     "misc": {
-        "interval_secs": 5,
+        "interval_secs": 2,
         "verbose": true
     },
     "sensors": {
@@ -15,21 +22,13 @@
             "unit": "C",
             "type": "temperature",
             "range": [0, 45],
-            "description": "To control temperature",
-            "isOutOfLimit" : 0
+            "description": "To control temperature"
         },
         "Sensor 2": {
             "unit": "Percent",
             "type": "humidity",
             "range": [30, 60],
-            "description": "To check humidity",
-            "isOutOfLimit" : 0
-        },
-        "Sensor 3":{
-            "unit" : "",
-            "type" : "light",
-            "range": [0,1],
-            "description" : "To check lights ON:1 or OFF:0"
+            "description": "To check humidity"
         }
         
     }
