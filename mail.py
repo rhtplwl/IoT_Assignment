@@ -2,7 +2,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-def send_alert(sender, receiver, password, smtpserver, port, ):
+def send_alert(sender, receiver, password, smtpserver, port ):
 	smtp = smtplib.SMTP(smtpserver, port)
 	smtp.ehlo()
 	smtp.starttls();
